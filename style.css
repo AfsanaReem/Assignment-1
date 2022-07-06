@@ -26,7 +26,23 @@ body {
     font-weight: bold;
 }
 
+.font-style-section3 {
+    text-align: center;
+    padding: 80px 80px 50px 80px;
+    font-weight: bold;
+}
+
+
+
 .font-style-section2 h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+.font-style-section3 h1 {
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 0;
@@ -36,9 +52,29 @@ body {
 
 .font-style-section2 p {
     font-size: 20px;
+    padding: 10px 200px;
+    color: gray;
+}
+
+.font-style-section3 p {
+    font-size: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: gray;
+    text-align: center;
+}
+
+#font-style-section2-p {
+    font-size: 20px;
     padding: 20px 150px;
 
 }
+
+.box-icon-style p {
+    padding-right: 90px;
+    padding-bottom: 40px;
+}
+
 
 .font-style h1 {
     font-size: 50px;
@@ -68,7 +104,7 @@ body {
 
 }
 
-button {
+.button_class {
     border: none;
     color: black;
     padding: 16px 32px;
@@ -77,12 +113,21 @@ button {
     margin: 4px 2px;
 }
 
+#button-subs {
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 20px;
+    margin: 5px 0px;
+    background-color: lightsalmon;
+}
+
 button:hover {
     background-image: linear-gradient(orangered, tomato);
     color: white;
 }
 
-input {
+#other {
     text-align: center;
     padding-bottom: 25px;
     width: 750px;
@@ -92,7 +137,78 @@ input {
     border-color: rgba(128, 128, 128, 0.357);
 }
 
-
-form {
+.other-amount {
     text-align: center;
+}
+
+.email-subs {
+    text-align: center;
+    background-color: antiquewhite;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.email {
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 10px;
+    padding-right: 30px;
+    outline: 0;
+    outline-width: 0;
+    border-width: 0 0 0px;
+    background-color: lightgray;
+
+}
+
+.box-icon-style {
+    display: flex;
+    margin-left: 120px;
+    margin-right: 120px;
+
+}
+
+.box-icon-style div {
+    margin: 15px;
+}
+
+#food {
+    padding-top: 30px;
+    background-color: rgb(185, 185, 225);
+    padding-left: 20px;
+}
+
+#shelter {
+    padding-top: 30px;
+    background-color: rgb(221, 191, 196);
+    padding-left: 20px;
+}
+
+#edu {
+    padding-top: 30px;
+    background-color: bisque;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+}
+
+footer h2 {
+    color: brown;
+    font-family: cursive;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+footer p {
+    color: blanchedalmond;
+    padding-bottom: 30px;
+    margin-bottom: 0;
 }
