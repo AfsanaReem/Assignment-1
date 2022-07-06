@@ -34,17 +34,17 @@ body {
 
 .bonus {
     display: flex;
-    margin-left: 200px;
-    margin-right: 200px;
-}
-
-.image {
-    margin: 30px;
-    border-radius: 2px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .text {
-    margin-top: 80px;
+    margin: 30px;
+    border-radius: 2px;
+    background-color: rgb(209, 227, 227);
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 10px 10px lightblue;
 }
 
 .font-style-section2 h1 {
