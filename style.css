@@ -7,14 +7,16 @@
     height: 500px;
 
 
+
+
 }
 
 .font-style {
     text-align: center;
-    padding-top: 10%;
-    padding-bottom: 10%;
     color: white;
-
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 140px;
+    font-weight: bold;
 }
 
 .font-style h1 {
