@@ -1,14 +1,15 @@
 #first-image {
     background-image: url(images/donation8.jpg);
     background-repeat: no-repeat;
+    border: 0;
     background-position: center;
     background-size: cover;
     position: relative;
     height: 500px;
+}
 
-
-
-
+body {
+    margin: 0;
 }
 
 .font-style {
@@ -21,8 +22,24 @@
 
 .font-style h1 {
     font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px black;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
-.font-style h2 {
-    font-size: 40px;
+.font-style p {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 18px;
+    text-shadow: 2px 2px 8px black;
+}
+
+.link-button {
+    text-decoration-line: none;
+    background-image: linear-gradient(orangered, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: bolder;
 }
