@@ -5,7 +5,8 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    height: 500px;
+    height: 650px;
+
 }
 
 body {
@@ -15,9 +16,28 @@ body {
 .font-style {
     text-align: center;
     color: white;
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 140px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 192px;
+}
+
+.font-style-section2 {
+    text-align: center;
+    padding: 80px;
     font-weight: bold;
+}
+
+.font-style-section2 h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+.font-style-section2 p {
+    font-size: 20px;
+    padding: 20px 150px;
+
 }
 
 .font-style h1 {
@@ -31,15 +51,49 @@ body {
 .font-style p {
     font-size: 18px;
     font-weight: bold;
-    padding-bottom: 18px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-shadow: 2px 2px 8px black;
 }
 
 .link-button {
     text-decoration-line: none;
     background-image: linear-gradient(orangered, tomato);
-    padding: 10px 20px;
+    padding: 20px 30px;
     border-radius: 5px;
     color: whitesmoke;
     font-weight: bolder;
+    font-size: larger;
+
+}
+
+button {
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 30px;
+    margin: 4px 2px;
+}
+
+button:hover {
+    background-image: linear-gradient(orangered, tomato);
+    color: white;
+}
+
+input {
+    text-align: center;
+    padding-bottom: 25px;
+    width: 750px;
+    font-size: 20px;
+    font-weight: 30px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgba(128, 128, 128, 0.357);
+}
+
+
+form {
+    text-align: center;
 }
